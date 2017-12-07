@@ -1,12 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <body>
 
-text update from firebase:
+values updated from firebase:
 <h1 id ="cabecera"> </h1>
 <p>I'm hosted with GitHub Pages.</p>
 
+<pre id="objeto"> </pre>
+<ul id="lista"> </ul>
 
 <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
 <script>
@@ -21,9 +22,37 @@ text update from firebase:
   };
   firebase.initializeApp(config);
 
-var cabecera = document.getElementById('cabecera');
-var dbRef = firebase.database().ref().child('text');
-dbRef.on('value', snap => cabecera.innerText = snap.val());
+  var cabecera = document.getElementById('cabecera');
+  var dbRef = firebase.database().ref().child('text'); 
+  dbRef.on('value', snap => cabecera.innerText = snap.val());
+
+  //obtener element
+  const preObject = document.getElementById('objeto');
+  const ulist = document.getElementById('lista');
+
+  //crear referencia base de datos
+  const dbRefObject = firebase.database().ref().child('objeto');
+  const dbRefList = dbRefObject.child('language');
+
+
+  //sincronizar cambios objeto cuando hay evento value hace console.log
+  dbRefObject.on('value', snap => console.log(snap.val()));
+
+  //sincronizar cambios objeto cuando hay un cambio modifica pre
+  dbRefObject.on('value', snap => {
+    preObject.innerText = JSON.stringify(snap.val(), null, 3)
+  });
+
+  dbRefList.on('child_added', snap => console.log(snap.val()));
+  dbRefList.on('child_added', snap => {
+    const li = document.createElement('li'); //creating li into html
+    li.innerText = snap.val(); //passing the value to item li text
+    li.id = snap.key; //adding id to items
+    ulist.appendChild(li); //adding li to list ul
+  });
+  
+//v3@6:30
+
 
 </script>
 
