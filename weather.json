@@ -16,19 +16,19 @@
         {
       "dt": 1523818124,
       "temp":       {
-        "day": 29.49,
-        "min": 10.633999240750303,
-        "max": 22.733831950881765,
-        "night": 9.52,
-        "eve": 21.09,
-        "morn": 15.42
+        "day": 0.49,
+        "min": 0.633999240750303,
+        "max": 1.733831950881765,
+        "night": 0.52,
+        "eve": 0.09,
+        "morn": 0.42
       },
       "pressure": 1042.9616457885425,
       "humidity": 97.25080393549592,
       "weather": [      {
         "id": 319,
-        "main": "Light Rain",
-        "description": "Light Rain",
+        "main": "Rain",
+        "description": "Rain",
         "icon": "02d"
       }],
       "speed": 58.679575781463114,
@@ -38,19 +38,19 @@
         {
       "dt": 1523904524,
       "temp":       {
-        "day": 29.49,
-        "min": 5.664212037223685,
-        "max": 6.912457882352115,
-        "night": 9.52,
-        "eve": 21.09,
-        "morn": 15.42
+        "day": 2.49,
+        "min": 2.664212037223685,
+        "max": 3.912457882352115,
+        "night": 2.52,
+        "eve": 2.09,
+        "morn": 2.42
       },
       "pressure": 961.7567866776612,
       "humidity": 51.001878238254974,
       "weather": [      {
         "id": 802,
-        "main": "Scattered Clouds",
-        "description": "Scattered Clouds",
+        "main": "Only Clouds",
+        "description": "Only  Clouds",
         "icon": "02d"
       }],
       "speed": 23.043985855182605,
@@ -60,19 +60,19 @@
         {
       "dt": 1523990924,
       "temp":       {
-        "day": 29.49,
-        "min": 10.22853870573295,
-        "max": 20.841880562688544,
-        "night": 9.52,
-        "eve": 21.09,
-        "morn": 15.42
+        "day": 4.49,
+        "min": 4.22853870573295,
+        "max": 5.841880562688544,
+        "night": 4.52,
+        "eve": 4.09,
+        "morn": 4.42
       },
       "pressure": 1045.7229713802194,
       "humidity": 90.91182513038643,
       "weather": [      {
         "id": 905,
-        "main": "Windy",
-        "description": "Windy",
+        "main": "Very warm",
+        "description": "Very warm",
         "icon": "02d"
       }],
       "speed": 57.363302046929086,
