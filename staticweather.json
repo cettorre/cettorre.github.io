@@ -3,10 +3,10 @@
     "id": 5375480,
     "name": "Barcelona",
     "coord":     {
-      "lon": -122.08384,
-      "lat": 37.386051
+      "lon": -2.186183,
+      "lat": 41.403626
     },
-    "country": "US",
+    "country": "ES",
     "population": 0
   },
   "cod": "200",
@@ -137,8 +137,8 @@
       "humidity": 78,
       "weather": [      {
         "id": 600,
-        "main": "Light Snow",
-        "description": "Light Snow",
+        "main": "Light Rain",
+        "description": "Light Rain",
         "icon": "02d"
       }],
       "speed": 2.6,
@@ -159,8 +159,8 @@
       "humidity": 80,
       "weather": [      {
         "id": 601,
-        "main": "Snow",
-        "description": "Snow",
+        "main": "Rain",
+        "description": "Rain",
         "icon": "02d"
       }],
       "speed": 3.8,
@@ -181,8 +181,8 @@
       "humidity": 85,
       "weather": [      {
         "id": 602,
-        "main": "Heavy Snow",
-        "description": "Heavy Snow",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 5.2,
@@ -203,8 +203,8 @@
       "humidity": 90,
       "weather": [      {
         "id": 611,
-        "main": "Sleet",
-        "description": "Sleet",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 10.3,
@@ -225,8 +225,8 @@
       "humidity": 80,
       "weather": [      {
         "id": 741,
-        "main": "Fog",
-        "description": "Fog",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 1.5,
@@ -247,8 +247,8 @@
       "humidity": 97,
       "weather": [      {
         "id": 960,
-        "main": "Storm",
-        "description": "Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 70.2,
@@ -269,8 +269,8 @@
       "humidity": 97,
       "weather": [      {
         "id": 960,
-        "main": "Storm",
-        "description": "Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 80.1,
@@ -291,8 +291,8 @@
       "humidity": 98,
       "weather": [      {
         "id": 901,
-        "main": "Tropical Storm",
-        "description": "Tropical Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 110.1,

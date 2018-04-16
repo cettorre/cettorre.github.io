@@ -1,12 +1,12 @@
 {
   "city":   {
     "id": 5375480,
-    "name": "Mountain View",
+    "name": "Barcelona",
     "coord":     {
-      "lon": -122.08384,
-      "lat": 37.386051
+      "lon": -2.186183,
+      "lat": 41.403626
     },
-    "country": "US",
+    "country": "ES",
     "population": 0
   },
   "cod": "200",
@@ -49,8 +49,8 @@
       "humidity": 51.001878238254974,
       "weather": [      {
         "id": 802,
-        "main": "Only Clouds",
-        "description": "Only  Clouds",
+        "main": "Clouds",
+        "description": "Clouds",
         "icon": "02d"
       }],
       "speed": 23.043985855182605,
@@ -71,8 +71,8 @@
       "humidity": 90.91182513038643,
       "weather": [      {
         "id": 905,
-        "main": "Very warm",
-        "description": "Very warm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 57.363302046929086,
@@ -93,8 +93,8 @@
       "humidity": 90.97750877718948,
       "weather": [      {
         "id": 230,
-        "main": "Storm",
-        "description": "Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 90.06499627875604,
@@ -115,8 +115,8 @@
       "humidity": 99.71830546799904,
       "weather": [      {
         "id": 954,
-        "main": "Breeze",
-        "description": "Breeze",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 93.03891922526498,
@@ -159,8 +159,8 @@
       "humidity": 67.91183675429765,
       "weather": [      {
         "id": 200,
-        "main": "Storm",
-        "description": "Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 68.98161818827833,
@@ -181,8 +181,8 @@
       "humidity": 99.71890817138092,
       "weather": [      {
         "id": 621,
-        "main": "Shower Snow",
-        "description": "Shower Snow",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 63.23160280541062,
@@ -225,8 +225,8 @@
       "humidity": 43.93885494816348,
       "weather": [      {
         "id": 711,
-        "main": "Smoke",
-        "description": "Smoke",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 76.17487114331328,
@@ -291,8 +291,8 @@
       "humidity": 49.78540642054946,
       "weather": [      {
         "id": 212,
-        "main": "Storm",
-        "description": "Storm",
+        "main": "Clear",
+        "description": "Clear",
         "icon": "02d"
       }],
       "speed": 93.85705702246908,
