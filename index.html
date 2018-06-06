@@ -1,60 +1,86 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Portfolio</title>
+ 
+
+</head>
+
 <body>
+<h1>Ejercicios</h1>
 
-values updated from firebase:
-<h1 id ="cabecera"> </h1>
-<p>I'm hosted with GitHub Pages.</p>
-
-<pre id="objeto"> </pre>
-<ul id="lista"> </ul>
-
-<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAQcPFGKlzV_8nHCt5UIH0zozLp1rNDRVk",
-    authDomain: "my-site-a50a5.firebaseapp.com",
-    databaseURL: "https://my-site-a50a5.firebaseio.com",
-    projectId: "my-site-a50a5",
-    storageBucket: "my-site-a50a5.appspot.com",
-    messagingSenderId: "460648548631"
-  };
-  firebase.initializeApp(config);
-
-  var cabecera = document.getElementById('cabecera');
-  var dbRef = firebase.database().ref().child('text'); 
-  dbRef.on('value', snap => cabecera.innerText = snap.val());
-
-  //obtener element
-  const preObject = document.getElementById('objeto');
-  const ulist = document.getElementById('lista');
-
-  //crear referencia base de datos
-  const dbRefObject = firebase.database().ref().child('objeto');
-  const dbRefList = dbRefObject.child('language');
+<h2>Modelado de Bases de datos</h2>
 
 
-  //sincronizar cambios objeto cuando hay evento value hace console.log
-  dbRefObject.on('value', snap => console.log(snap.val()));
 
-  //sincronizar cambios objeto cuando hay un cambio modifica pre
-  dbRefObject.on('value', snap => {
-    preObject.innerText = JSON.stringify(snap.val(), null, 3)
-  });
+https://drive.google.com/file/d/1w-xv9NK4YOWnf9cHrxrrlDrrK-2lKB0o/view?usp=sharing
 
-  dbRefList.on('child_added', snap => console.log(snap.val()));
-  dbRefList.on('child_added', snap => {
-    const li = document.createElement('li'); //creating li into html
-    li.innerText = snap.val(); //passing the value to item li text
-    li.id = snap.key; //adding id to items
-    ulist.appendChild(li); //adding li to list ul
-  });
+
+<h2>Android Intents</h2>
+
+
+
+https://github.com/cettorre/ExAndroidIntents
+
+<p align="center">
   
-//v3@6:30
+<img src="img/ej1main.jpg" width="350"/>
+
+</p>
 
 
-</script>
 
+<h2>Android SQLite Database</h2>
+
+
+
+https://github.com/cettorre/AndroidSQLiteDB
+
+<p align="center">
+
+<img src="img/ej2main.jpg" width="350"/>
+  
+<img src="img/ej2add.jpg" width="350"/>
+
+</p>
+
+
+
+<p align="center">
+ 
+ <img src="img/ej2info.jpg" width="350"/>
+
+</p>
+
+
+
+
+<h2> Dice Game Layered Pattern </h2>
+https://github.com/cettorre/AndroidDiceGameLayeredPattern
+<p align="center">
+
+<img src="img/dicegame/dg_main.jpg" width="350"/>
+  
+<img src="img/dicegame/dg_dashboard.jpg" width="350"/>
+
+</p>
+
+<p align="center">
+
+<img src="img/dicegame/dg_game.jpg" width="350"/>
+  
+<img src="img/dicegame/dg_score.jpg" width="350"/>
+
+</p>
+
+<p align="center">
+
+<img src="img/dicegame/dg_stats.jpg" width="350"/>
+  
+
+</p>
 </body>
 </html>
