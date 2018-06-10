@@ -13,6 +13,9 @@
 
 <h2> Dice Game Layered Pattern Jun 2018</h2>
 <a href="https://github.com/cettorre/AndroidDiceGameLayeredPattern">GitHub project</a>
+</br>
+Descritpion:</br>Application simulating dices game. Whe the user enters in the application, before starting the game, he has to chose a player name. To win the game the sum of the dices has to be 7. After rolling the dice the applicationcalculate the percentage of wins. For every game the results will be stored into the databse. To see all the list of results the user has to access to the statistics screen where a list of results for every player will be displayed. 
+</br>Tecnical information:</br> The aplpication follows a design pattern diveded into layers. The application layer contains the logic of the program and allows communication between View and Domain. The domain layer contains classes representing the application objects such as PLayer, Game and Dice. The view layer contains all the activities of the application. In the persistence layer there are the operation with the database. To transfer data between layers a DTO has been used. 
 
 </br></br>
 Layered Pattern, MVC, DTO
@@ -46,7 +49,12 @@ Layered Pattern, MVC, DTO
 
 <h2>Android SQLite Database May 2018</h2>
 <a href="https://github.com/cettorre/AndroidSQLiteDB">GitHub project</a>
-
+</br>
+Description :</br>
+Application that stores animals in a salute database. The main activity shows all the animals that have been entered into the database. From the add animal button you can add a new animal in the database with the animal information: the name of the animal, the race, if the animal has a chip or not and a photo compressed in base 64 format. From the list in the main activity you can select an item to see the information of the animal, when the record has been added to the database and his photo. In the list animals that have chip are showed in blue colour.
+</br>
+Technical information:</br>
+The application is using SQLite database. Photo are stored as strings in base64 format. The application will be adapted to follow the layered design pattern.
 </br></br>
 SQLite
 
@@ -75,26 +83,20 @@ SQLite
 
 </br></br>
 ExoPlayer
-
-Esta aplicación es un reproductor de video que trabaja en conjunto con el plugin PluginAndroidVideoPlayer
-https://github.com/cettorre/PluginAndroidVideoPlayer
-
-Para averiguar el funcionamiento hay que instalar el reproductor AndroidVideoPlayer y el plugin PluginVideoPlayer en el dispositivo
-
-Al termine de la reproducción del video, el plugin se abrirá de forma automática enseñando las estadísticas del reproductor en pantalla.
-
+</br></br>
+This application is a video player that works together with th plugin PluginAndroidVideoPlayer
+While the video player is playing videos the plugin is collecting information.
+To check how they are working you need to install the video player and plugin in the device. When the video ends, the plugin will open automatically showing on the screen the statistics of the player 
 <p align="center">
   <img src="img/AndroidVideoPlayer/sshot1.jpg" width="350"/>
   <img src="img/AndroidVideoPlayer/sshot2.jpg" width="350"/>
 </p>
-
-Desde la actividad principal del plugin es posible ejecutar las siguientes operaciones:
--mostrar estadísticas de la ultima reproducción
--enviar una petición Http utilizando un nuevo hilo de ejecución
--enviar una petición Http a través de un servicio
--borrar los datos almacenados en la aplicación
-
-
+</br>
+From the main activity of the plugin is possible to start the following tasks:
+</br>-show statistisc of the last video</br>
+-send http request on a new thread</br>
+-send http request using a service</br>
+-clear all the data stored into the application </br>
 <p align="center">
   <img src="img/AndroidVideoPlayer/sshot3.jpg" width="350"/>
 </p>
@@ -121,7 +123,7 @@ Intents, Camera
 
 <h2>Web_Crud_MVC_Java Mar 2018</h2>
 <a href="https://github.com/cettorre/Web_CRUD">GitHub project</a>
-
+</br>Description: </br>This is a web application based on Java EE that follows the MVC pattern. The application implements the database operations of creation reading update and delete (CRUD). The used database is MySQL through JDBC.
 </br></br>
 
 JDBC
@@ -139,7 +141,7 @@ JDBC
 
 <h2>AndroidRef Nov 2017</h2>
 <a href="https://github.com/cettorre/AndroidRef">GitHub project</a>
-
+</br>Description:</br> This is a sample application that implements different Android features such as Camera control, location, shared preferences, file storage, video player, database, services etc. The purpose of this application was to get familiar with those components
 </br></br>
 Shared Preference, WebView, Service, Fragment, Battery, Camera, Internal External and Cache storage, Dialogs
 <p align="center">
