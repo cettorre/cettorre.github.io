@@ -19,11 +19,16 @@
 Application simulating a dice game. When the user enters in the application, 
 before starting the game, he has to introduce a player name. 
 To win the game the sum of the dices has to be 7. 
-After rolling the dice the application calculate the percentage of wins. 
+After rolling the dices the application calculate the percentage of wins. 
 For every game the results will be stored into the databse. 
 To see all the list of results the user has to access to the statistics screen 
 where a list of results for every player will be displayed. 
-</br></br><strong >Technical information:</strong></br> The aplpication follows a design pattern diveded into layers. The application layer contains the logic of the program and allows communication between View and Domain. The domain layer contains classes representing the application objects such as PLayer, Game and Dice. The view layer contains all the activities of the application. In the persistence layer there are the operation with the database. To transfer data between layers a DTO has been used. 
+</br></br><strong >Technical information:</strong></br> The aplpication follows a design pattern diveded into layers. 
+The application layer contains the logic of the program and allows communication between View and Domain. The domain layer contains classes 
+representing the application objects such as Player, Game and Dice. 
+The view layer contains all the activities of the application. 
+In the persistence layer there are the operation with the database. 
+To transfer data between layers a DTO has been used. 
 
 </br></br>
 Tags : #Layered Pattern, #MVC, #DTO
@@ -62,11 +67,11 @@ Tags : #Layered Pattern, #MVC, #DTO
 Application that stores animals information and photo in a SQLite database. 
 The main activity shows all the animals that have been entered into the database. 
 From the add animal button you can add a new animal in the database with the animal information: the name of the animal, the race, if the animal has a chip or not and a photo compressed in base 64 format. 
-From the list in the main activity you can select an item to see the information of the animal, his photo and the inserting date. Animals that have chip are showed in blue colour in the main activity list .
+From the list in the main activity you can select an item to see the information of the animal, his photo and the inserting date. Animals that have chip are shown in blue colour in the main activity list .
 </br></br>
 <strong>Technical information :</strong></br>
 The application is using SQLite database. Photo are stored as strings in base64 format. 
-The application will be adapted to follow the layered design pattern.
+
 </br></br>
 Tags : #SQLite
 
@@ -98,7 +103,7 @@ Tags : #SQLite
 This application is a video player that works together with th plugin <a href="https://github.com/cettorre/PluginAndroidVideoPlayer">PluginAndroidVideoPlayer</a> 
 The plugin is collecting information while the video player is playing videos.
 To check how they are working you need to install the video player and plugin in the device. 
-When the video ends, the plugin will open automatically showing the statistics of the playeron the screen.  
+When the video ends, the plugin will open automatically showing the statistics of the player on the screen.  
 </br></br>
 Tags : #ExoPlayer
 <p align="center">
@@ -160,7 +165,9 @@ Tags : #JDBC, #MVC, #JavaEE
 </br></br></br></br>
 <center><h2>AndroidRef Nov 2017</h2></center>
 <a href="https://github.com/cettorre/AndroidRef">GitHub project</a></br>
-</br><strong>Description :</strong></br> This is a sample application that implements different Android features such as Camera control, location, shared preferences, file storage, video player, database, services etc. The purpose of this application was to get familiar with those components
+</br><strong>Description :</strong></br> This is a sample application that 
+implements different Android features such as Camera control, location, 
+shared preferences, files storage, video player, database, services etc. The purpose of this application was to get familiar with those components
 </br></br>
 Tags : #Shared Preference, #WebView, #Service, #Fragment, #Battery, #Camera, #Internal storage, #External storage, #Cache storage, #Dialogs
 <p align="center">
