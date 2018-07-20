@@ -1,0 +1,107 @@
+{
+"login":"true",
+"eventos":
+[
+{
+"idEvento":1,
+"titulo":"titulo del evento",
+"descripcion":"descripcion del evento",
+"logo":"img/eventos/logo.jpg",
+"tipoEvento":{
+	"idTipoEvento":1,
+	"nombre":"Asamblea"	
+},
+"participantes":[
+{	
+	"id":1,
+	"email":"part1@gmail.com",
+	"password":"1234",
+	"nombre":"juan",
+	"apellidos":"Perez Perez",
+	"votosAsignados":1
+}
+{	
+	"id":2,
+	"email":"part2@gmail.com",
+	"password":"1234",
+	"nombre":"juan",
+	"apellidos":"Perez Perez",
+	"votosAsignados":1
+}],
+"pregunta":{
+"idPregunta":1,
+"descripcion":"Que le ha parecido la conferencia",
+"opciones":[
+{
+"idOpcion":1,
+"descripcion":"BUENO"
+},
+{
+"idOpcion":2,
+"descripcion":"REGULAR"
+},
+{
+"idOpcion":3,
+"descripcion":"MALO"
+}]
+
+},
+"publicar":"true",
+"cerrado": "false"
+},
+
+
+
+
+{
+"idEvento":2,
+"titulo":"titulo del evento2",
+"descripcion":"descripcion del evento2",
+"logo":"img/eventos/logo2.jpg",
+"tipoEvento":{
+	"idTipoEvento":2,
+	"nombre":"Asamblea2"	
+},
+"participantes":[
+{	
+	"id":3,
+	"email":"part1@gmail.com",
+	"password":"1234",
+	"nombre":"juan",
+	"apellidos":"Perez Perez",
+	"votosAsignados":1
+}
+{	
+	"id":2,
+	"email":"part2@gmail.com",
+	"password":"1234",
+	"nombre":"juan",
+	"apellidos":"Perez Perez",
+	"votosAsignados":1
+}],
+"pregunta":{
+"idPregunta":12,
+"descripcion":"Que le ha parecido la conferencia2",
+"opciones":[
+{
+"idOpcion":1,
+"descripcion":"BUENO"
+},
+{
+"idOpcion":2,
+"descripcion":"REGULAR"
+},
+{
+"idOpcion":3,
+"descripcion":"MALO"
+}]
+
+},
+"publicar":"true",
+"cerrado": "false"
+}
+
+
+]
+
+}
