@@ -1,0 +1,39 @@
+[{
+    "id": 123456,
+    "titulo": "titulo de evento",
+    "descripcion": "descripcion del evento",
+    "logo": "logo del evento en formato string Base64",
+    "entidad": "nombre entidad",
+	"tipoEvento": "Isao Takahata",
+	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
+	"publicar":true,
+	"cerrado":false
+	"preguntas":["pregunta1","pregunta2","pregunta3"],
+  
+  },
+  {
+    "id": 234567,
+    "titulo": "titulo de evento",
+    "descripcion": "descripcion del evento",
+    "logo": "logo del evento en formato string Base64",
+    "entidad": "nombre entidad",
+	"tipoEvento": "Isao Takahata",
+	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
+	"publicar":true,
+	"cerrado":false
+	"preguntas":["pregunta1","pregunta2","pregunta3"],
+  
+  },
+  {
+    "id": 345678,
+    "titulo": "titulo de evento",
+    "descripcion": "descripcion del evento",
+    "logo": "logo del evento en formato string Base64",
+    "entidad": "nombre entidad",
+	"tipoEvento": "Isao Takahata",
+	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
+	"publicar":true,
+	"cerrado":false
+	"preguntas":["pregunta1","pregunta2","pregunta3"],
+  
+  }]
