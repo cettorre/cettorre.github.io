@@ -7,7 +7,7 @@
 	"tipoEvento": "Isao Takahata",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
-	"cerrado":false
+	"cerrado":false,
 	"preguntas":["pregunta1","pregunta2","pregunta3"]
   
   },
@@ -20,7 +20,7 @@
 	"tipoEvento": "Isao Takahata",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
-	"cerrado":false
+	"cerrado":false,
 	"preguntas":["pregunta1","pregunta2","pregunta3"]
   
   },
@@ -33,7 +33,7 @@
 	"tipoEvento": "Isao Takahata",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
-	"cerrado":false
+	"cerrado":false,
 	"preguntas":["pregunta1","pregunta2","pregunta3"]
   
   }]
