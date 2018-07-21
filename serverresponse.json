@@ -1,39 +1,39 @@
 [{
     "id": 123456,
     "titulo": "titulo de evento",
-    "descripcion": "descripcion del evento",
+    "descripcion": "aprobas presupuesto anual de la entidad",
     "logo": "logo del evento en formato string Base64",
     "entidad": "nombre entidad",
 	"tipoEvento": "Votacion",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
 	"cerrado":false,
-	"preguntas":["pregunta1","pregunta2","pregunta3"]
+	"preguntas":["si","no"]
   
   },
   {
     "id": 123456,
     "titulo": "titulo de evento",
-    "descripcion": "descripcion del evento",
+    "descripcion": "eleccion presidente entidad",
     "logo": "logo del evento en formato string Base64",
     "entidad": "nombre entidad",
 	"tipoEvento": "Votacion",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
 	"cerrado":false,
-	"preguntas":["pregunta1","pregunta2","pregunta3"]
+	"preguntas":["Juan","Ana","Carmen, Jordi"]
   
   },
   {
     "id": 123456,
     "titulo": "titulo de evento",
-    "descripcion": "descripcion del evento",
+    "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas",
     "logo": "logo del evento en formato string Base64",
     "entidad": "nombre entidad",
 	"tipoEvento": "Votacion",
 	"participantes":["participante1@gmail.com","participante1@gmail.com","participante1@gmail.com"],
 	"publicar":true,
 	"cerrado":false,
-	"preguntas":["pregunta1","pregunta2","pregunta3"]
+	"preguntas":["Muy buenos","Buenos","Indiferente", "Malos", "Muy malos"]
   
   }]
