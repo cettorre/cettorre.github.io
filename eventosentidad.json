@@ -24,8 +24,41 @@
 	"id":2,
 	"email":"part2@gmail.com",
 	"password":"1234",
-	"nombre":"juan",
-	"apellidos":"Perez Perez",
+	"nombre":"juan2",
+	"apellidos":"Perez Perez2",
+	"votosAsignados":1
+},
+
+{	
+	"id":3,
+	"email":"part3@gmail.com",
+	"password":"1234",
+	"nombre":"juan3",
+	"apellidos":"Perez Perez3",
+	"votosAsignados":1
+},
+{	
+	"id":4,
+	"email":"part4@gmail.com",
+	"password":"1234",
+	"nombre":"juan4",
+	"apellidos":"Perez Perez4",
+	"votosAsignados":1
+},
+{	
+	"id":5,
+	"email":"part5@gmail.com",
+	"password":"1234",
+	"nombre":"juan5",
+	"apellidos":"Perez Perez5",
+	"votosAsignados":1
+},
+{	
+	"id":6,
+	"email":"part6@gmail.com",
+	"password":"1234",
+	"nombre":"juan6",
+	"apellidos":"Perez Perez6",
 	"votosAsignados":1
 }],
 "pregunta":{
