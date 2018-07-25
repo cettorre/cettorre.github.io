@@ -2,9 +2,9 @@
 
     "id": 123456,
 
-    "titulo": "titulo de evento 1",
+    "titulo": "Consulta aprobasion presupuesto",
 
-    "descripcion": "aprobas presupuesto anual de la entidad",
+    "descripcion": "Apruebas presupuesto anual de la entidad",
 
     "logo": "logo del evento en formato string Base64",
 
@@ -32,7 +32,7 @@
 
   	"pregunta":{
 
-  	  "descripcion": "aprobas presupuesto anual de la entidad?"
+  	  "descripcion": "Apruebas el presupuesto anual de la entidad?"
 
   	},
 
@@ -50,9 +50,9 @@
 
     "id": 123457,
 
-    "titulo": "titulo de evento 2",
+    "titulo": "Eleccion presidente entidad",
 
-    "descripcion": "eleccion presidente entidad",
+    "descripcion": "Quien quieres como presidente?",
 
     "logo": "logo del evento en formato string Base64",
 
@@ -102,7 +102,7 @@
 
     "id": 123458,
 
-    "titulo": "titulo de evento 3",
+    "titulo": "Consulta valoracion conferencia",
 
     "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas",
 
