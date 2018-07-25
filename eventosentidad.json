@@ -4,8 +4,8 @@
 [
 {
 "idEvento":1,
-"titulo":"titulo del evento",
-"descripcion":"descripcion del evento",
+"titulo":"Consulta valoracion conferencia",
+"descripcion":"Como valoras los resultados de la conferencia sobre adopcion de medidas participativas?",
 "logo":"img/eventos/logo.jpg",
 "tipoEvento":{
 	"idTipoEvento":1,
@@ -88,8 +88,8 @@
 
 {
 "idEvento":2,
-"titulo":"titulo del evento2",
-"descripcion":"descripcion del evento2",
+"titulo":"Consulta aprobasion presupuesto",
+"descripcion":"Apruebas presupuesto anual de la entidad?",
 "logo":"img/eventos/logo2.jpg",
 "tipoEvento":{
 	"idTipoEvento":2,
@@ -114,26 +114,16 @@
 }],
 "pregunta":{
 "idPregunta":12,
-"descripcion":"Que le ha parecido la conferencia2",
+"descripcion":"Apruebas presupuesto anual de la entidad?",
 "opciones":[
 {
 "idOpcion":1,
-"descripcion":"BUENO"
+"descripcion":"SI"
 },
 {
 "idOpcion":2,
-"descripcion":"REGULAR"
-},
-{
-"idOpcion":3,
-"descripcion":"MALO"
-}]
-
-},
-"publicar":"true",
-"cerrado": "false"
+"descripcion":"NO"
 }
-
 
 ]
 
