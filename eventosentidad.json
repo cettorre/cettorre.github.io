@@ -88,7 +88,7 @@
 
 {
 "idEvento":2,
-"titulo":"Consulta aprobasion presupuesto",
+"titulo":"Consulta aprobacion presupuesto",
 "descripcion":"Apruebas presupuesto anual de la entidad?",
 "logo":"img/eventos/logo2.jpg",
 "tipoEvento":{
