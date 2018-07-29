@@ -43,58 +43,6 @@
   	  {"id":"2", "descripcion":"no"}
 
   	  ]
-
-  },
-{
-
-    "id": 123456,
-
-    "titulo": "VALORA APP",
-
-    "descripcion": "Apruebas presupuesto anual de la entidad",
-
-    "logo": "logo del evento en formato string Base64",
-
-	  "tipoEvento": {
-
-	    "id": "1",
-
-	    "name": "Votacion"
-
-	    },
-
-  	"participantes":[
-
-  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
-
-  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
-
-  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
-
-  	    ],
-
-  	"publicar":true,
-
-  	"cerrado":false,
-
-  	"pregunta":{
-
-  	  "descripcion": "Apruebas el presupuesto anual de la entidad?"
-
-  	},
-
-  	"opciones":[
-
-  	  {"id":"0", "descripcion":"si"},
-  	  {"id":"1", "descripcion":"si"},
-  	  {"id":"2", "descripcion":"si"},
-  	  {"id":"3", "descripcion":"si"},
-  	  {"id":"4", "descripcion":"si"},
-  	  {"id":"5", "descripcion":"si"},
-  	  {"id":"10", "descripcion":"no"}
-
-  	  ]
-
   },
 
   {
@@ -146,11 +94,9 @@
   	  {"id":"4", "descripcion":"Jordi"}
 
   	  ]
-
   },
 
   {
-
     "id": 345678,
 
     "titulo": "Consulta valoracion conferencia",
@@ -200,7 +146,6 @@
   	  {"id":"5", "descripcion":"Muy malos"}
 
   	  ]
-
   },
   {
 
@@ -236,31 +181,28 @@
 
   	"pregunta":{
 
-  	  "descripcion": "¿Como valoras esta applicacion? Elige un valor entre 0 y 10 donde 0 es muy mala y 10 es muy buena"
+  	  "descripcion": "¿Como valoras esta applicacion? Expresa tu verdadera opinion"
 
   	},
 
   	"opciones":[
 
-  	  {"id":"0", "descripcion":"0"},
+  	  {"id":"0", "descripcion":"Malisima"},
 
-  	  {"id":"1", "descripcion":"1"},
+  	  {"id":"1", "descripcion":"Muy mala"},
 
-  	  {"id":"2", "descripcion":"2"},
+  	  {"id":"2", "descripcion":"Mala"},
 
-  	  {"id":"3", "descripcion":"3"},
+  	  {"id":"3", "descripcion":"Indiferente"},
 
-  	  {"id":"4", "descripcion":"4"},
+  	  {"id":"4", "descripcion":"Buena"},
 
-  	  {"id":"5", "descripcion":"5"},
+  	  {"id":"5", "descripcion":"Muy buena"},
 	
-	  {"id":"6", "descripcion":"6"},
+	  {"id":"6", "descripcion":"Buenisima"},
 
-  	  {"id":"10", "descripcion":"7"}
-
+  	  {"id":"7", "descripcion":"Impresionante"}
 
   	  ]
-
   }
-
 ]
