@@ -171,9 +171,11 @@
 	
 	  {"id":"6", "descripcion":"Buenisima"},
 
-  	  {"id":"7", "descripcion":"Impresionante"}
+  	  {"id":"7", "descripcion":"Impresionante"}]
 
-
-  	  ]
+},
+"publicar":"true",
+"cerrado": "false"
+}
 
 }
