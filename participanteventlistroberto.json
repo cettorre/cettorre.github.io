@@ -45,6 +45,61 @@
   	  ]
 
   },
+{
+
+    "id": 123456,
+
+    "titulo": "VALORA APP",
+
+    "descripcion": "Apruebas presupuesto anual de la entidad",
+
+    "logo": "logo del evento en formato string Base64",
+
+	  "tipoEvento": {
+
+	    "id": "1",
+
+	    "name": "Votacion"
+
+	    },
+
+  	"participantes":[
+
+  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
+
+  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
+
+  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
+
+  	    ],
+
+  	"publicar":true,
+
+  	"cerrado":false,
+
+  	"pregunta":{
+
+  	  "descripcion": "Apruebas el presupuesto anual de la entidad?"
+
+  	},
+
+  	"opciones":[
+
+  	  {"id":"0", "descripcion":"si"},
+  	  {"id":"1", "descripcion":"si"},
+  	  {"id":"2", "descripcion":"si"},
+  	  {"id":"3", "descripcion":"si"},
+  	  {"id":"4", "descripcion":"si"},
+  	  {"id":"5", "descripcion":"si"},
+  	  {"id":"6", "descripcion":"si"},
+  	  {"id":"7", "descripcion":"si"},
+  	  {"id":"8", "descripcion":"si"},
+  	  {"id":"9", "descripcion":"si"},
+  	  {"id":"10", "descripcion":"no"}
+
+  	  ]
+
+  },
 
   {
 
