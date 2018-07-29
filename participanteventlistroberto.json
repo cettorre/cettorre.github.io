@@ -48,11 +48,11 @@
 
   {
 
-    "id": 123457,
+    "id": 234567,
 
     "titulo": "Eleccion presidente entidad",
 
-    "descripcion": "Quien quieres como presidente?",
+    "descripcion": "¿Quien quieres como presidente?",
 
     "logo": "logo del evento en formato string Base64",
 
@@ -100,11 +100,11 @@
 
   {
 
-    "id": 123458,
+    "id": 345678,
 
     "titulo": "Consulta valoracion conferencia",
 
-    "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas",
+    "descripcion": "Como valoras los resultados de la conferencia sobre adopcion de medidas participativas",
 
     "logo": "logo del evento en formato string Base64",
 
@@ -132,7 +132,7 @@
 
   	"pregunta":{
 
-  	  "descripcion": "como valoras los resultados de la conferencia sobre adopcion de medidas participativas?"
+  	  "descripcion": "¿Como valoras los resultados de la conferencia sobre adopcion de medidas participativas?"
 
   	},
 
@@ -147,6 +147,72 @@
   	  {"id":"4", "descripcion":"Malos"},
 
   	  {"id":"5", "descripcion":"Muy malos"}
+
+  	  ]
+
+  },
+  {
+
+    "id": 456789,
+
+    "titulo": "VALORA ESTA APPLICACION",
+
+    "descripcion": "¿Como valoras esta applicacion? Elige un valor entre 0 y 10 donde 0 es muy mala y 10 es muy buena",
+
+    "logo": "logo del evento en formato string Base64",
+
+	  "tipoEvento": {
+
+	    "id": "1",
+
+	    "name": "Votacion"
+
+	    },
+
+  	"participantes":[
+
+  	    {"id":"1", "email":"participante1@gmail.com", "nombre":"Nombre1", "lastName":"Apellido1", "votosAsig":"1"},
+
+  	    {"id":"2", "email":"participante2@gmail.com", "nombre":"Nombre2", "lastName":"Apellido2", "votosAsig":"1"},
+
+  	    {"id":"3", "email":"participante3@gmail.com", "nombre":"Nombre3", "lastName":"Apellido3", "votosAsig":"1"}
+
+  	    ],
+
+  	"publicar":true,
+
+  	"cerrado":false,
+
+  	"pregunta":{
+
+  	  "descripcion": "¿Como valoras esta applicacion? Elige un valor entre 0 y 10 donde 0 es muy mala y 10 es muy buena"
+
+  	},
+
+  	"opciones":[
+
+  	  {"id":"0", "descripcion":"0"},
+
+  	  {"id":"1", "descripcion":"1"},
+
+  	  {"id":"2", "descripcion":"2"},
+
+  	  {"id":"3", "descripcion":"3"},
+
+  	  {"id":"4", "descripcion":"4"},
+
+  	  {"id":"5", "descripcion":"5"},
+	
+	  {"id":"6", "descripcion":"6"},
+
+  	  {"id":"7", "descripcion":"7"},
+
+  	  {"id":"8", "descripcion":"8"},
+
+  	  {"id":"9", "descripcion":"9"},
+
+  	  {"id":"10", "descripcion":"10"}
+
 
   	  ]
 
