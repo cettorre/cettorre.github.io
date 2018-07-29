@@ -236,13 +236,11 @@
 
   	"pregunta":{
 
-  	  "descripcion": "¿Como valoras esta applicacion? Elige un valor entre 0 y 10 donde 0 es muy mala y 10 es muy buena"
+  	  "descripcion": "¿Como valoras esta applicacion? Elige un valor entre 1 y 10 donde 1 es muy mala y 10 es muy buena"
 
   	},
 
   	"opciones":[
-
-  	  {"id":"0", "descripcion":"0"},
 
   	  {"id":"1", "descripcion":"1"},
 
