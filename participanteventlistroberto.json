@@ -200,9 +200,8 @@
   	  {"id":"5", "descripcion":"Muy buena"},
 	
 	  {"id":"6", "descripcion":"Buenisima"},
-	  {"id":"7", "descripcion":"Increible"},
-	  {"id":"8", "descripcion":"Impresionante"},
-  	  {"id":"9", "descripcion":"Impresionante"}
+
+  	  {"id":"7", "descripcion":"Impresionante"}
 
   	  ]
   }
